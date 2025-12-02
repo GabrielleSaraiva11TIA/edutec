@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(./imagens-jogo/Fuga\ Gelada\ \(6\).svg) center/cover no-repeat fixed;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo img{
+    border: none;
+    right: 80rem;
+    position: absolute;
+    background: transparent;
+    height: 40%;
+    bottom: 43rem;
+   
+}
+p{
+    font-family: "Open Sans",sans-serif;
+    color: #474747;
+    font-size: 1.725rem;
+    font-weight: bold;
+    padding-top: 49rem;
+    max-width: 105rem;
+    padding-left: 16rem;
+}
+
+span{
+    color: #004aad;
+}
+
+
+
+.proximo img{
+    border: none;
+    position: absolute;
+    top: 25rem;
+    left: 60rem;
+    background: transparent;
+    height: 80%;
+    bottom: 28rem;
+    
+}

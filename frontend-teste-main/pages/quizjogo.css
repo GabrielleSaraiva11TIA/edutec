@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titulo img{
+  border: none;
+  right: 80rem;
+  position: absolute;
+  background: transparent;
+  height: 40%;
+  bottom: 43rem;
+ 
+}
+body {
+  min-height: 100vh;
+  background-image: url('../Imagem.jogo/PERGUNTAS.jpg');
+  background-repeat: no-repeat;
+  background-position: top center; /* <- aqui */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  margin-right: 280px;
+  margin-top: -20px;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 70px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  max-width: 850px;
+  width: 100%;
+}
+
+.box h1 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.quiz h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.btn {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 50px;
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+
+}
+
+.btn:hover {
+  background-color: #357ABD;
+  transform: scale(1.03);
+}
+
+.btn::after {
+  content: "❄️";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#next-btn {
+  margin-top: 20px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#next-btn:hover {
+  background-color: #003080;
+}
+
+.correct {
+  background-color: #008000 !important; 
+  color: white;
+}
+
+.incorrect {
+  background-color: #FF0000 !important; 
+  color: white;
+}
+
+.box.final-box {
+  background-color:hsl(212, 39%, 72%) ; 
+  border-radius: 50px;
+  max-width: 30rem;
+  border: solid white;
+  margin-right: 25rem;
+  margin-top: 31rem;
+ 
+}
+
+.box.final-box h2, p {
+  color: #fff;
+}

@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.ancora a {
+    max-width: 12rem;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    height: 43rem;
+    background-color: #E8E7D2;
+}
+
+.main-container {
+    display: flex;
+}
+
+
+
+.saude-introducao h2 {
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
+    color: #778D4D;
+    margin-top: 3.75rem;
+    margin-left: 8.688rem;
+    max-width: 29.063rem;
+}
+
+.saude-introducao p {
+    font-size: 0.938rem;
+    margin-left: 8.688rem;
+    max-width: 29.063rem;
+    margin-bottom: 1.25rem;
+    color: #414840;
+}
+
+.saude-introducao img {
+    margin-left: 8.688rem;
+    max-width: 29.063rem;
+    height: 19.375rem;
+}
+
+.primeira {
+    background-color: #E8E7D2;
+    padding-bottom: 3rem;
+}
+
+.segunda {
+    display: flex;
+    gap: 5.625rem;
+    padding-bottom: 3rem;
+    height: 40rem;
+    max-width: 90.625rem;
+    margin-inline: auto;
+    align-items: center;
+    
+}
+
+.caracteristicas {
+    margin-top: 4.3rem;
+}
+
+.caracteristica1,
+.caracteristica2,
+.caracteristica3 {
+    display: flex;
+    gap: 9.375rem;
+    align-items: center;
+}
+
+.topico1-informacao,
+.topico2-informacao,
+.topico3-informacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caracteristica1 {
+    display: flex;
+    gap: 0.938rem;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 0.938rem;
+    padding-bottom: 0.625rem;
+}
+
+.caracteristica1 p {
+    margin-top: 0.313rem;
+    max-width: 18.75rem;
+    font-size: 0.875rem;
+}
+
+.topico1-imagem img {
+    max-width: 13.75rem;
+    justify-content: center;
+}
+
+.topico1-informacao {
+    display: flex;
+    font-size: 0.938rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topico1-informacao h3 {
+    max-width: 25rem;
+    font-size: 1.063rem;
+    color: #778D4D;
+}
+
+.topico1-informacao p {
+    color: #414840;
+}
+
+.caracteristica2 {
+    display: flex;
+    gap: 0.938rem;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 0.938rem;
+    padding-bottom: 0.625rem;
+}
+
+.caracteristica2 p {
+    margin-top: 0.313rem;
+    max-width: 18.75rem;
+    font-size: 0.875rem;
+}
+
+.topico2-imagem img {
+    max-width: 13.75rem;
+    justify-content: center;
+}
+
+.topico2-informacao {
+    display: flex;
+    font-size: 0.938rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topico2-informacao h3 {
+    max-width: 25rem;
+    font-size: 1.063rem;
+    color: #778D4D;
+}
+
+.topico2-informacao p {
+    color: #414840;
+}
+
+.caracteristica3 {
+    display: flex;
+    gap: 0.938rem;
+}
+
+.caracteristica3 p {
+    margin-top: 0.313rem;
+    max-width: 18.75rem;
+    font-size: 0.875rem;
+}
+
+.topico3-imagem img {
+    max-width: 13.75rem;
+    justify-content: center;
+}
+
+.topico3-informacao {
+    display: flex;
+    font-size: 0.938rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topico3-informacao h3 {
+    max-width: 25rem;
+    font-size: 1.063rem;
+    color: #778D4D;
+}
+
+.topico3-informacao p {
+    color: #414840;
+}
+
+.conteudo-apoio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6.25rem;
+    margin: 0 auto;
+    background-color: #202E13;
+    padding: 3.75rem 1.25rem;
+}
+
+.titulo-video {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.video-saude iframe {
+    width: 35rem;
+    height: 19.688rem;
+    border-radius: 0.5rem;
+}
+
+.mapa-mental-saude img {
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 35rem; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-mapa-mental {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #778D4D;
+    color: white;
+    padding: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+    gap: 1.875rem;
+    padding: 2.5rem 1.25rem;
+}
+
+.footer-comeco {
+    margin-left: 6.25rem;
+}
+
+.footer-comeco h2 {
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    margin-bottom: 0.938rem;
+    color: white;
+}
+
+.footer-comeco p {
+    max-width: 18.75rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-topics h3,
+.footer-contacts h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 0.938rem;
+    font-weight: normal;
+}
+
+.footer-topics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-topics a {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-copyright {
+    background-color: #343D33; 
+    color: #8B8B8B;
+    text-align: center;
+    padding: 0.625rem 0;
+    margin-top: 0;
+    width: 100%; 
+    position: relative; 
+    left: 0;
+    right: 0;
+    font-size: 0.9rem;
+}
+
+.footer-copyright p {
+    padding: 1rem
+}
+
+.footer-contacts {
+    margin-right: 14.375rem;
+}
+
+.main-container, .parte-principal {
+    width: 100%;
+    overflow: hidden;
+}
+
+img, .video-saude, .mapa-mental-saude {
+    max-width: 100%;
+    height: auto;
+}
+
+body.escurecer::before {
+    content: "";
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+}
+
+.botao nav.abrir {
+    right: 0;
+}
+
+button {
+    height: 3.125rem;
+    position: absolute;
+    right: 1.875rem;
+    margin-top: 1.875rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    height: 6.25rem;
+    width: 6.25rem;
+}
+
+.primeira-imagem {
+    height: 6.25rem;
+    width: 100%;
+    height: auto;
+}
+
+.menu-lateral {
+    position: fixed;
+    right: -16rem; 
+    height: 100vh;
+    width: 16rem;
+    background-color: #E8E7D2;
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+
+.menu-lateral.abrir {
+    right: 0;
+}
+
+.menu-lateral .fechar-menu {
+    position: absolute;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+    display: block; 
+}
+
+.menu-lateral .fechar-menu img {
+    width: 3rem;
+    height: 3.5rem;
+    display: block;
+}
+
+.menu-lateral.aberto .fechar-menu {
+    display: block; 
+}
+
+body.menu-open .overlay {
+    display: block;
+}
+
+.botao-fechar {
+    display: none; 
+}
+
+.menu-open .botao-fechar {
+    display: block; 
+}
+
+.fechar-menu {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1002;
+    color: #202E13;
+    top: 0;
+    margin-right: -3rem;
+    margin-top: 1rem;
+}
+
+.fechar-menu img {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block; 
+    color: #1E2912;
+}
+
+.ancora {
+    margin-top: 6.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    margin-left: 2.5rem;
+}
+
+.botao a {
+    text-decoration: none;
+    color: #202E13;
+}
+
+.botao a:hover {
+    color: #4C7B20;
+}
+
+.menu-lateral {
+    position: fixed;
+}
+
+.saude-introducao, .caracteristica1, .caracteristica2, .caracteristica3 {
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+
+
+

@@ -1,0 +1,409 @@
+:root {
+  --primary: #2c6e49;
+  --secondary: #4c956c;
+  --accent: #fefee3;
+  --dark: #1a535c;
+  --light: #f9f9f9;
+  --text: #333;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(./Imagens-home/urban-vintage-78A265wPiO4-unsplash\ 2.png);
+  background-size: cover;
+  background-position: center;
+  height: 65.5vh;
+  position: relative;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #E8E7D2, transparent);
+  z-index: 1;
+}
+
+header nav {
+  padding-top: 3.8rem;
+  padding-inline: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+}
+
+header nav ul,
+header nav li {
+  list-style: none;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: var(--transition);
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+}
+
+header nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+header h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  font-size: 4.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+}
+
+main {
+  background: #E8E7D2;
+  margin-top: -10rem;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  padding: 6rem 4rem 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+.urgencia {
+  display: flex;
+  gap: 5rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 2rem;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.urgencia img {
+  width: 100%;
+  max-width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: var(--transition);
+}
+
+.urgencia img:hover {
+  transform: scale(1.02);
+}
+
+.text-urgencia {
+  flex: 1;
+}
+
+.h2-urgencia {
+  color: var(--primary);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.h2-urgencia::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border-radius: 2px;
+}
+
+.text-urgencia p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.corpo-do-carrosel {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  max-width: 77%;
+  margin-left: 13rem;
+ 
+
+}
+
+.slider {
+  position: relative;
+  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  overflow: auto; 
+  
+}
+
+.siema {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 3rem; 
+  padding: 0 2rem; 
+  padding-top: 0px !important;
+}
+
+.siema a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  overflow: hidden; 
+  border-radius: 20px;
+  transition: var(--transition);
+  flex: 0 0 300px;
+}
+
+.siema a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.siema h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 20px;
+  margin: 0;
+  color: white;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  font-size: 1.5em;
+  font-weight: 600;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 2;
+}
+
+.siema img {
+  width: 100%;
+  height: 25.6rem;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+}
+
+.siema a:hover img {
+  transform: scale(1.05);
+}
+
+.prev,
+.next,
+.circles,
+.carousel-indicators {
+  display: none;
+}
+
+
+/* Responsividade */
+@media (max-width: 992px) {
+  .urgencia {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .h2-urgencia::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  header h1 {
+    font-size: 3.5rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-comeco {
+    margin-left: 0;
+  }
+
+  .footer-contacts {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header nav {
+    padding-inline: 2rem;
+  }
+
+  header nav ul {
+    gap: 1rem;
+  }
+
+  header h1 {
+    font-size: 2.8rem;
+  }
+
+  main {
+    padding: 5rem 2rem 3rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+  }
+
+  .urgencia {
+    padding: 2rem;
+  }
+
+  .fundo-verde {
+    padding: 3rem 1.5rem;
+  }
+
+  .prev, .next {
+    width: 40px;
+    height: 40px;
+  }
+
+  .prev {
+    left: -15px;
+  }
+
+  .next {
+    right: -15px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 55vh;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  .h2-urgencia {
+    font-size: 1.8rem;
+  }
+
+  .text-urgencia p {
+    font-size: 1rem;
+  }
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #778D4D;
+  color: white;
+  padding: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 1.875rem;
+  padding: 2.5rem 1.25rem;
+}
+
+.footer-comeco {
+  margin-left: 6.25rem;
+}
+
+.footer-comeco h2 {
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  margin-bottom: 0.938rem;
+}
+
+.footer-comeco p {
+  max-width: 18.75rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.footer-topics h3,
+.footer-contacts h3 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-bottom: 0.938rem;
+  font-weight: normal;
+}
+
+.footer-topics ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-topics a {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-copyright {
+  background-color: #343D33; 
+  color: #8B8B8B;
+  text-align: center;
+  padding: 0.625rem 0;
+  margin-top: 0;
+  width: 100%; 
+  position: relative; 
+  left: 0;
+  right: 0;
+  font-size: 0.9rem;
+}
+
+.footer-copyright p {
+  padding: 1rem
+}
+
+.footer-contacts {
+  margin-right: 14.375rem;
+}
