@@ -407,3 +407,15 @@ footer {
 .footer-contacts {
   margin-right: 14.375rem;
 }
+
+
+
+
+.usuario-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}

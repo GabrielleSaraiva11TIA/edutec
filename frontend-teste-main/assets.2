@@ -1,0 +1,9 @@
+// auth.js — bloqueia acesso se não estiver logado
+(function () {
+  const user = sessionStorage.getItem("user");
+
+  if (!user) {
+    alert("Você precisa estar logado para acessar o jogo!");
+    window.location.href = "./login/login.html"; 
+  }
+})();
